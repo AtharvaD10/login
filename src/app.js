@@ -23,7 +23,7 @@ mongoose.connect(uri, async () => {
   
 
 app.get("/", (req, res) => {
-    res.send("hello fuckers")
+    res.send("hello everyone...")
 })
 
 app.listen(port, () => {
